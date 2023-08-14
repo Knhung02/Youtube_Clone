@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css ">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <a href="https://www.youtube.com/">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </a>
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="button-search">
+                <img class="search" src="icons/search.svg">
+                <div>Search</div>
+            </button>
+            <button class="button-voice-search">
+                <img src="icons/voice-search-icon.svg">
+                <div>Search with your voice</div> 
+            </button>
+
+        </div>
+
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload" src="icons/upload.svg">
+                <div>Create</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications" src="icons/notifications.svg">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="user" src="icons/user.png">
+        </div>
+    </header>
+
+    <nav class="side-bar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <span>Home</span>
+        </div>
+        <div class="sidebar-link">
+            <img class="shorts" src="icons/shorts.png">
+            <span>Shorts</span>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <span>Subscriptions</span>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg">
+            <span>Library</span>
+        </div>
+    </nav>
+    <main>
+        <div class="video-grid">
+            <div class="video">
+                <div class="thumbnail-container">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=4as2bcQOj00">
+                        <img class="thumbnail" src="/thumbnails/img1.avif " alt="">
+                    </a>
+                    <div class="video-time">3:56:31</div>
+                </div>
+                <div class="video-info-grid">
+                    <div>
+                        <a class="chanel-link" href="https://www.youtube.com/@chillvibesplaylist">
+                            <img class="profile-picture" src="channels_profile/img1.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=4as2bcQOj00">
+                                Chill Music Playlist 🍂 Chill songs when you want to feel motivated and relaxed ~ morning songs</p>
+                            </a>
+                            <p class="chanel-name">
+                                <a class="chanel-link" href="https://www.youtube.com/@chillvibesplaylist">
+                                 Chill Vibes
+                            </a>
+                            </p>
+                            <p class="video-stats">4,6 Tr lượt xem &#183; 7 tháng trước</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="video">
+                <div class="thumbnail-container">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=6J0DzHkAzoM">
+                        <img class="thumbnail" src="/thumbnails/img2.avif " alt="">
+                    </a>
+                    <div class="video-time">2:12:04</div>
+                </div>
+                <div class="video-info-grid">
+                    <div>
+                        <a class="chanel-link" href="https://www.youtube.com/@foreveryoungedm">
+                            <img class="profile-picture " src="channels_profile/img2.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=6J0DzHkAzoM">
+                                 Music Mix 2023 🎧 Remixes of Popular Songs 🎧 EDM Bass Boosted Music Mix
+                            </a>
+                        </p>
+                        <p class="chanel-name">
+                            <a class="chanel-link" href="https://www.youtube.com/@foreveryoungedm">
+                                Forever Young
+                            </a>
+                        </p>
+                        <p class="video-stats">2,2 Tr lượt xem &#183; 7 tháng trước</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="video">
+                <div class="thumbnail-container">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=XzOvgu3GPwY">
+                        <img class="thumbnail" src="/thumbnails/img3.avif " alt="">
+                    </a>
+                    <div class="video-time">3:25</div>
+                </div>
+                <div class="video-info-grid">
+                    <div>
+                        <a class="chanel-link" href="https://www.youtube.com/@TaylorSwiftVEVO">
+                            <img class="profile-picture " src="channels_profile/img3.jpg">
+                        </a>
+                    </div>
+                    <div class="video-preview">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=XzOvgu3GPwY">
+                                Taylor Swift ft. Ice Spice - Karma (Official Music Video)
+                            </a>
+                        </p>
+                        <p class="chanel-name">
+                            <a class="chanel-link" href="https://www.youtube.com/@TaylorSwiftVEVO">
+                                Taylor Swift
+                            </a>
+                        </p>
+                        <p class="video-stats">21 Tr lượt xem &#183; 3 tuần trước</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="video">
+                <div class="thumbnail-container">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=kMUcwWWmWug">
+                        <img class="thumbnail" src="/thumbnails/img4.avif " alt="">
+                    </a>
+                    <div class="video-time">22:47</div>
+                </div>
+
+                <div class="video-info-grid">
+
+                    <div>
+                        <a class="chanel-link" href="https://www.youtube.com/@LearnEnglishWithTVSeries">
+                            <img class="profile-picture " src="channels_profile/img4.jpg">
+                        </a>
+                    </div>
+                    <div class="video-preview">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=kMUcwWWmWug">
+                                What Level is Your English? — TEST with ZOOTOPIA
+                            </a>
+                        </p>
+                        <p class="chanel-name">
+                            <a class="chanel-link" href="https://www.youtube.com/@LearnEnglishWithTVSeries">
+                                Learn English With TV Series
+                            </a>
+                        </p>
+                        <p class="video-stats">694 N lượt xem &#183; 2 tháng trước</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="video">
+                <div class="thumbnail-container">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=zcxnB_OHUJQ">
+                        <img class="thumbnail" src="/thumbnails/img5.avif " alt="">
+                    </a>
+                    <div class="video-time">52:59</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div>
+                        <a class="chanel-link" href="https://www.youtube.com/@viomusic525">
+                            <img class="profile-picture " src="channels_profile/img5.jpg">
+                        </a>
+                    </div>
+                    <div class="video-preview">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=zcxnB_OHUJQ">
+                                Senbonzakura - Top 15 Bản Violin Hay Nhất Mọi Thời Đại | EDM Violin TikTok Gây Nghiện Hiện Nay 2022
+                            </a>
+                        </p>
+                        <p class="chanel-name">
+                            <a class="chanel-link" href="https://www.youtube.com/@viomusic525">
+                                VIO Music
+                            </a>
+                        </p>
+                        <p class="video-stats">1,9 Tr lượt xem &#183; 6 tháng trước</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="video">
+                <div class="thumbnail-container">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=C1m9dX5dSnk">
+                        <img class="thumbnail" src="/thumbnails/img6.avif " alt="">
+                    </a>
+                    <div class="video-time">10:00:02</div>
+                </div>
+                <div class="video-info-grid">
+                    <div>
+                        <a class="chanel-link" href="https://www.youtube.com/@MagicalForestMusic">
+                            <img class="profile-picture " src="channels_profile/img6.jpg">
+                        </a>
+                    </div>
+                    <div class="video-preview">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=C1m9dX5dSnk">
+                                Magical Forest Music ✨ Healing Nature Sounds, Magical Flute | Sleep Better, Mental Relaxation
+                            </a>
+                        </p>
+                        <p class="chanel-name">
+                            <a class="chanel-link" href="https://www.youtube.com/@MagicalForestMusic">
+                                Magical Forest Music
+                            </a>
+                        </p>
+                        <p class="video-stats">541 N lượt xem &#183; 3 tháng trước</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="video">
+                <div class="thumbnail-container">
+                    <a class="video-link" href="https://www.youtube.com/watch?v=RLWcYADoV84">
+                        <img class="thumbnail" src="/thumbnails/img7.avif " alt="">
+                    </a>
+                    <div class="video-time">1:00:09</div>
+                </div>
+                <div class="video-info-grid">
+                    <div>
+                        <a class="chanel-link" href="https://www.youtube.com/@MagicMusicGroup">
+                            <img class="profile-picture " src="channels_profile/img7.jpg">
+                        </a>
+                    </div>
+                    <div class="video-preview">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=RLWcYADoV84">
+                                Chill Music Mix 2020 🍃Best Music Chill Out Mix #1
+                            </a>
+                        </p>
+                        <p class="chanel-name">
+                            <a class="chanel-link" href="https://www.youtube.com/@MagicMusicGroup">
+                                Magic Music
+                            </a>
+                        </p>
+                        <p class="video-stats">29 Tr lượt xem &#183; 3 năm trước</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="video">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=FBhW9OuXWaw">
+                        <img class="thumbnail" src="/thumbnails/img8.avif " alt="">
+                    </a>
+                    <div class="video-time">2:06:42</div>
+                </div>
+
+                <div class="video-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@TrailerMusicEmpire">
+                            <img class="profile-picture " src="channels_profile/img8.jpg">
+                        </a>
+                    </div>
+                    <div class="video-preview">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=FBhW9OuXWaw">
+                                "STRING OF EMOTIONS" Pure Dramatic 🌟 Most Powerful Violin Fierce Orchestral Strings Music
+                            </a>
+                        </p>
+                        <p class="chanel-name">
+                            <a class="chanel-link" href="https://www.youtube.com/@TrailerMusicEmpire">
+                                Trailer Music Empire
+                            </a>
+                        </p>
+                        <p class="video-stats">659 N lượt xem &#183; 1 tháng trước</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="video">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=1rBwfi8fW8w">
+                        <img class="thumbnail" src="/thumbnails/img9.avif " alt="">
+                    </a>
+                    <div class="video-time">4:51:49</div>
+                </div>
+                <div class="video-info-grid">
+                    <div>
+                        <a href="https://www.youtube.com/@imganonono">
+                            <img class="profile-picture " src="channels_profile/img9.jpg">
+                        </a>
+                    </div>
+                    <div class="video-preview">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=1rBwfi8fW8w">
+                                [𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓] Disney songs piano🏰| 디즈니 OST
+                            </a>
+                        </p>
+                        <p class="chanel-name">
+                            <a class="chanel-link" href="https://www.youtube.com/@imganonono">
+                                잉 ING
+                            </a>
+                        </p>
+                        <p class="video-stats">1,9 Tr lượt xem &#183; 3 tháng trướcc</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+</body>
+
+</html>
